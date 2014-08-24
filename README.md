@@ -1,12 +1,10 @@
 # CTF write-ups
 
-There are some problems with CTF write-ups in general:
+大部分fork by以下連結，十分感謝。
+https://github.com/ctfs/write-ups
 
-* they’re scattered across the interwebs
-* they don’t usually include the original files needed to solve the challenge
-* some of them are incomplete or skip ‘obvious’ parts of the explanation, and are therefore not as helpful for newcomers
-* often they disappear when the owner forgets to renew their domain or shuts down their blog
+2014年開始，創造一個中文學習 CTF 的環境，這裡沒有大大，沒有神人 tomcr00se (但是有可能會有他的Writeup XD)，只有一群熱愛資安，想要進步的朋友們。
 
-This repository aims to solve those problems.
+我們會儘可能的蒐集世界各地的 WriteUP(附上原始連結)，並在實際測試成功後，寫成中文的WriteUP。
 
-It’s a collection of CTF source files and write-ups that anyone can contribute to. Did you just publish a CTF write-up? [Let us know](https://github.com/ctfs/write-ups/issues/new), and we’ll add a link to your post — or just add the link yourself and submit a pull request. Spot an issue with a solution? Correct it, and send a pull request.
+目前正在進行的是 hitcop2014 WriteUP
