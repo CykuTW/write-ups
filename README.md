@@ -7,4 +7,4 @@ https://github.com/ctfs/write-ups
 
 我們會儘可能的蒐集世界各地的 WriteUP(附上原始連結)，並在實際測試成功後，寫成中文的WriteUP。
 
-目前正在進行的是 hitcon2014 WriteUP
+目前正在進行的是 hitcon-ctf-2014
