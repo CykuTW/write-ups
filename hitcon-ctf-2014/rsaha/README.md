@@ -1,3 +1,10 @@
+<head>
+<!-- MathJax Library - ref: http://www.mathjax.org -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+</head>
+
 # HITCON CTF 2014: rsaha
 
 **Category:** Crypto
@@ -68,9 +75,6 @@ Finally the program gave us a final message holding the key. Of course we had to
 The flag is `HITCON{RSA is a really secure algorithm, right?}`.
 
 # 中文版 #
-<script type="text/x-mathjax-config"\>
-MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script\>
 題目可以從 [writeup][0] 抓到，可以從它提供的 .py 檔中看到一些蛛絲馬跡。
 從題目可以看到，在 encrypt 當中他會對 **m** 做 bits 長度的加密：
 
