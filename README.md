@@ -9,9 +9,9 @@
 
 目前正在中文化進行的是 : 
 
-- [hitcon-ctf-2014](hitcon-ctf-2014)  (41/500) 
+- [hitcon-ctf-2014](hitcon-ctf-2014)  (2014/8/16-2014/8/18) 
 
-- [no-con-name-ctf-quals-2014](no-con-name-ctf-quals-2014)  (28/224)
+- [no-con-name-ctf-quals-2014](no-con-name-ctf-quals-2014)  (2014/9/13-2014/9/14)
 
 ## 一些使用方法
 - [Windows GUI 無腦更新 github CTF WriteUP 方式](windowsgithub101.md)
