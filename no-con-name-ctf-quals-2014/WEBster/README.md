@@ -1,4 +1,4 @@
-# No cON Name CTF Quals 2014: inBINcible
+# No cON Name CTF Quals 2014: WEBster
 
 **Category:** Web
 **Points:** 200
