@@ -54,7 +54,7 @@ O:5:"Creds":2:{s:1:"u";s:4:"p00p";s:1:"p";s:9:"l!k34b4u5";}
 NcN_778064be6556e64577517875a8710b0abeba1578
 ```
 
-ps. 也可以以下的 POC.php 產生 object injection 所需的東西
+ps. 也可以用以下的 POC.php 產生 object injection 所需的東西
 ```
 <?php
 class Creds
